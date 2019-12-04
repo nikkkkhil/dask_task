@@ -1,0 +1,48 @@
+html {
+  width: 100%;
+  height: 100%;
+  background: #F7F7F7;
+
+  font-size: small;
+}
+
+body {
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+body > .content {
+  height: auto;
+}
+
+.content {
+  height: 100%;
+  min-height: 100%;
+}
+
+.nav {
+  background: #34495E;
+}
+
+.nav>li>a {
+  color: #ECF0F1;
+  font-weight: 500;
+}
+
+#summary-selection {
+  width: 200px;
+}
+
+pre {
+  margin: 10px;
+  padding: 5px;
+  background-color: #EEEEEE;
+  color: #000000;
+}

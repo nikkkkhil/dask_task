@@ -1,0 +1,9 @@
+recursive-include daskperiment *.html
+recursive-include daskperiment *.css
+
+include MANIFEST.in
+include LICENSE
+include LICENSES/*
+include README.rst
+include requirements.txt
+include setup.py
